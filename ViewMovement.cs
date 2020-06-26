@@ -24,7 +24,7 @@ public class ViewMovement : MonoBehaviour
 
             // the transform position associated to the gameObject (ie seaweed in this case)
             // assigned to a new Vector position taking in the (X, Y, Z) as parameters.
-            transform.position = new Vector3(15, randomHeight, 0);
+            transform.position = new Vector3(15, randomHeight, 10);
         }
     }
 }
